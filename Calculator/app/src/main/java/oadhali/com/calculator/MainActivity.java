@@ -1,5 +1,6 @@
 package oadhali.com.calculator;
 
+<<<<<<< HEAD
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -21,10 +22,18 @@ public class MainActivity extends AppCompatActivity {
     private static final String STATE_PENDING_OPERAION = "PendingOperation";
     private static final String STATE_OPERAND1 = "Operand1";
 
+=======
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity {
+
+>>>>>>> da319f54574d7ed71c257589c2e08f05b7867346
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
 
         result = (EditText) findViewById(R.id.result);
         newNumber = (EditText) findViewById((R.id.newNumber));
@@ -158,5 +167,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+=======
+>>>>>>> da319f54574d7ed71c257589c2e08f05b7867346
     }
 }
